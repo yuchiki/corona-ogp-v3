@@ -14,9 +14,10 @@ export const lambdaHandler = async (event: APIGatewayProxyEvent): Promise<APIGat
     try {
         return {
             statusCode: 200,
-            body: JSON.stringify({
-                message: 'hello world',
-            }),
+            body: '<html><head><title>hoge</title></head><body>fuga</body></html>',
+            headers: {
+                'Content-Type': 'text/html'
+            }
         };
     } catch (err) {
         console.log(err);

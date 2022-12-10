@@ -2,9 +2,11 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
 	"name": "Node.js & TypeScript",
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:0-16-bullseye",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
 	"features": {
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/aws-cli:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/customink/codespaces-features/sam-cli:1": {}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.

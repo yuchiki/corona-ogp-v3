@@ -6,6 +6,6 @@ stack_name = "tokyo-corona-digest"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1i2lghhbjmlbr"
 s3_prefix = "tokyo-corona-digest"
 region = "ap-northeast-1"
-confirm_changeset = true
+confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
 image_repositories = []
